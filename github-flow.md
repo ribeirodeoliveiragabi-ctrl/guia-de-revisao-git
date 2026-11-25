@@ -1,20 +1,24 @@
-1. Os seis passos do GitHub Flow
-Criar uma branch.
+# GitHub Flow
 
-Fazer as alterações no código.
+## Os seis passos do GitHub Flow
 
-Salvar as alterações (commit).
+1. Criar uma branch: abrir uma ramificação para trabalhar sem modificar diretamente a main.
 
-Abrir um Pull Request.
+2. Fazer alterações: editar arquivos e desenvolver as melhorias necessárias na branch criada.
 
-Revisar e testar o código.
+3. Fazer commits: registrar as alterações realizadas, utilizando mensagens que expliquem cada mudança.
 
-Fazer o merge na main.
+4. Abrir um Pull Request: solicitar que as alterações sejam analisadas antes de serem adicionadas à main.
 
-2. Por que não editar diretamente na main?
-Porque podemos causar erros no projeto principal. É melhor usar uma branch para fazer alterações e testar antes de colocar na main.
+5. Revisar e aprovar: os colaboradores analisam o código, sugerem melhorias e aprovam as mudanças quando estiverem corretas.
 
-3. Cores no diff
- Vermelho: código removido.
+6. Fazer o merge: integrar as alterações aprovadas à branch principal.
 
- Verde: código adicionado.
+## Por que não devemos editar diretamente a main?
+
+Porque trabalhar em branches permite desenvolver mudanças separadamente, revisar o trabalho e corrigir possíveis erros antes de atualizar a versão principal do projeto.
+
+## O que significa o diff?
+
+- Vermelho: representa o conteúdo removido ou substituído em relação à versão anterior.
+- Verde: representa o conteúdo adicionado ao projeto.
