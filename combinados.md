@@ -1,4 +1,4 @@
 COMBINADOS 
 
-Dia de estudo: a definir
+Dia de estudo: terça-feira
 Horário: depois da aula
